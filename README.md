@@ -1,16 +1,25 @@
-# DirecrtX12TrialCode
-DirectX12でPMDをVMDを適用させて描画します
+DirecrtX12TrialCode
+====
 
-もし、このソース群を実行する場合は下記のライブラリを導入してください
+## Overview  
+DirectX12でPMDとVMDを読み込んで描画します
 
-導入しているライブラリ
-EffekseerDX12
+## Description
+PMDとVMDを読み込んで描画する他に、レイマーチングや深度を用いた輪郭抽出等が含まれています。  
+ライセンスの都合等あるため、このままでは足りないライブラリがあります。  
+そのため、このままでは実行できません。  
+実行物というよりは実装の参考例としてみてもらえればと思います
 
-DirextXTK12
-
-DirectXTex
-
-Imgui
-
-NVIDIA GameWorks™ DirectX Samples - FXAA3
+## Demo
+https://twitter.com/Techno1109/status/1226741587255820288
+## Requirement
+- EffekseerDX12 
+- DirextXTK12 
+- DirectXTex 
+- Imgui 
+- NVIDIA GameWorks™ DirectX Samples - FXAA3
 https://developer.nvidia.com/gameworks-directx-samples
+
+## Author
+
+[TechNΘ](https://twitter.com/Techno1109)
